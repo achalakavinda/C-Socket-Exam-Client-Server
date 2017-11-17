@@ -4,7 +4,7 @@ int main (){
 	 int x[10];
          buildArray(x);
          int j;
-         struct question questions[10];
+         question questions[10];
          readFile(questions);
 
           for (j=0;j<10;j++){

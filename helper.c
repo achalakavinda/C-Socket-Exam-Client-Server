@@ -1,5 +1,5 @@
 #include "config.h"
-//build random value array
+
 void buildArray(int *arr) {
     //initialize variables and remove array garbage values.
 	time_t t;
@@ -35,7 +35,7 @@ void buildArray(int *arr) {
 		}
 }
 
-int readFile(struct question *questions){
+int readFile(question *questions){
     //declare local variables
 	FILE* fp;
 	int countIndex=0;

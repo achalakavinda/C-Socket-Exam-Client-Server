@@ -11,8 +11,8 @@ config headers and varibale declared here
 #define bufSize 1024
 
 //structure define for the storing question information
-typedef struct question{
+typedef struct {
     char question[1024];
     char answere_set[1024];
     char correct_answere[1024];
-};
+} question;
